@@ -117,7 +117,20 @@ dtb-$(CONFIG_ARCH_FSL_IMX8MQ) += fsl-imx8mq-ddr3l-arm2.dtb \
 				 fsl-imx8mq-evk-root.dtb \
 				 fsl-imx8mq-evk-inmate.dtb \
 				 fsl-imx8mq-evk-dp.dtb \
-				 fsl-imx8mq-evk-edp.dtb
+				 fsl-imx8mq-evk-edp.dtb \
+				 fsl-imx8mq-kopera-polar0.dtb \
+				 fsl-imx8mq-var-dart-emmc-wifi-hdmi.dtb \
+				 fsl-imx8mq-var-dart-emmc-wifi-lvds.dtb \
+				 fsl-imx8mq-var-dart-emmc-wifi-dual-display.dtb \
+				 fsl-imx8mq-var-dart-sd-emmc-hdmi.dtb \
+				 fsl-imx8mq-var-dart-sd-emmc-lvds.dtb \
+				 fsl-imx8mq-var-dart-sd-emmc-dual-display.dtb \
+				 fsl-imx8mq-var-dart-m4-emmc-wifi-hdmi.dtb \
+				 fsl-imx8mq-var-dart-m4-emmc-wifi-lvds.dtb \
+				 fsl-imx8mq-var-dart-m4-emmc-wifi-dual-display.dtb \
+				 fsl-imx8mq-var-dart-m4-sd-emmc-hdmi.dtb \
+				 fsl-imx8mq-var-dart-m4-sd-emmc-lvds.dtb \
+				 fsl-imx8mq-var-dart-m4-sd-emmc-dual-display.dtb
 dtb-$(CONFIG_ARCH_FSL_IMX8MM) += fsl-imx8mm-evk.dtb \
 				 fsl-imx8mm-evk-ak4497.dtb \
 				 fsl-imx8mm-evk-m4.dtb \
@@ -132,7 +145,8 @@ dtb-$(CONFIG_ARCH_FSL_IMX8MM) += fsl-imx8mm-evk.dtb \
 				 fsl-imx8mm-evk-revb.dtb \
 				 fsl-imx8mm-evk-revb-rm67191.dtb \
 				 fsl-imx8mm-ddr4-evk-rm67191.dtb \
-				 fsl-imx8mm-ddr4-qca9377-evk.dtb
+				 fsl-imx8mm-ddr4-qca9377-evk.dtb  \
+				 fsl-imx8mm-var-dart.dtb
 always		:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
 clean-files	:= *.dtb
